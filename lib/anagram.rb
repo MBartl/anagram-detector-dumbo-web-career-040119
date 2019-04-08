@@ -10,6 +10,7 @@ class Anagram
   end
   
   def match(array)
+    binding.pry
     array.select do |item|
       item.split("").sort
     end
